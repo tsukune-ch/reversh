@@ -17,7 +17,7 @@ const (
 // Shell represents a shell name and priority.
 type Shell struct {
 	Name     string // e.g., "sh", "bash", "tcsh"
-	Priority int    // 0 is lowest priority
+	Priority uint   // 0 is lowest priority
 }
 
 // Shells represents the Shell slice structure.
